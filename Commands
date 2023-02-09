@@ -1,0 +1,7 @@
+LINUX COMAND
+dpkg --list Список установленных приложений 
+sudo apt --installed list | more список именно установленных приложений 	
+sudo apt-get remove (nombre-del-paquete) - удаляет приложение, но сохраняет файлы конфигурации.
+sudo apt-get purge (nombre-paquete) - полностью удаляет приложение  
+sudo apt-get purge postgresql-common 
+
